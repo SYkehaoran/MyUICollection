@@ -1,5 +1,5 @@
 //
-//  fmPercentLabel.swift
+//  HXPercentLabel.swift
 //  HXFundManager
 //
 //  Created by 柯浩然 on 2019/7/25.
@@ -12,7 +12,7 @@
  */
 import UIKit
 
-class fmPercentLabel: UILabel {
+class HXPercentLabel: UILabel {
     
     @objc var shouldPlusPrefix = false
     @objc func setAmountText(_ amountText:String?) {
