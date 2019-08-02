@@ -1,9 +1,7 @@
 //
 //  ShaperLayerView.swift
-//  HXFundManager
 //
 //  Created by 柯浩然 on 2019/7/31.
-//  Copyright © 2019 China Asset Management Co., Ltd. All rights reserved.
 //
 /*
  把shaperLayer做为寄宿图层的View。

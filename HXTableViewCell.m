@@ -1,9 +1,7 @@
 //
 //  HXTableViewCell.m
-//  HXFundManager
 //
 //  Created by 柯浩然 on 2019/7/31.
-//  Copyright © 2019 China Asset Management Co., Ltd. All rights reserved.
 //
 
 #import "HXTableViewCell.h"
@@ -36,7 +34,7 @@
     
     UIView *line = [[UIView alloc] init];
     self.horizontalLine = line;
-    line.backgroundColor = FM_LINETWO_COLOR;
+    line.backgroundColor = [UIColor blackColor];
     [self addSubview:line];
     [line mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.mas_equalTo(0);;

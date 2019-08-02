@@ -1,9 +1,7 @@
 //
 //  HXTableViewCell.h
-//  HXFundManager
 //
 //  Created by 柯浩然 on 2019/7/31.
-//  Copyright © 2019 China Asset Management Co., Ltd. All rights reserved.
 //
 /*
  自定义底部一个像素粗细的线条，可以使用separatorViewInsets设置

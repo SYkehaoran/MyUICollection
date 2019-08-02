@@ -1,9 +1,7 @@
 //
 //  HXPercentLabel.swift
-//  HXFundManager
 //
 //  Created by 柯浩然 on 2019/7/25.
-//  Copyright © 2019 China Asset Management Co., Ltd. All rights reserved.
 //
 /*
  显示百分比的自定义Label，
