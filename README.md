@@ -1,3 +1,1 @@
-封装的各种View
-提高工作效率
-避免重复造轮子
+HXIndicator  继承ShaperLayerView，根据宽高自定义右侧的箭头指示器。
