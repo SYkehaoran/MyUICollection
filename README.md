@@ -2,11 +2,11 @@
  - *ShaperLayerView*
     重写类方法layerClass， 把shaperLayer做为View的寄宿图层。
     
- 1.可以支持不同角度的圆角。系统可以在iOS11之后使用layer.maskedCorners支持
+     1.可以支持不同角度的圆角。系统可以在iOS11之后使用layer.maskedCorners支持
  
- 2.用shaperLayer画图性能更高
+    2.用shaperLayer画图性能更高
  
- 3.可以解决部分圆形视图不够圆润的问题
+     3.可以解决部分圆形视图不够圆润的问题
  
 - *HXIndicator*  继承ShaperLayerView，根据宽高自定义右侧的箭头指示器。
 
