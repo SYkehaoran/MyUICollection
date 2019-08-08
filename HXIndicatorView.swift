@@ -12,10 +12,14 @@ class HXIndicatorView: ShaperLayerView {
     
     override func draw(_ rect: CGRect) {
         
+        let content = UIGraphicsGetCurrentContext()
+        content?.setFillColor(self.backgroundColor?.cgColor ?? UIColor.white.cgColor)
+        content?.fill(rect)
+        
         let size = rect.size;
         shaperLayer().lineWidth = 1;
         shaperLayer().fillColor = UIColor.clear.cgColor;
-        shaperLayer().lineCap = kCALineCapRound
+        shaperLayer().lineCap = CAShapeLayerLineCap.round
         
         let path = UIBezierPath.init()
         path.move(to: CGPoint(x: 0, y: 0))

@@ -12,22 +12,21 @@ import UIKit
 
 class ShaperLayerView: UIView {
     
-    @objc var cornerRadiusArray : [NSNumber]?
-    
     @objc func shaperLayer() -> CAShapeLayer {
         let layer = self.layer as! CAShapeLayer
-        
         return layer
     }
     
     override public class var layerClass: Swift.AnyClass {
         
-        get {
-            return CAShapeLayer.self
-        }
+        return CAShapeLayer.self
     }
     
     override func draw(_ rect: CGRect) {
+        
+        let content = UIGraphicsGetCurrentContext()
+        content?.setFillColor(self.backgroundColor?.cgColor ?? UIColor.white.cgColor)
+        content?.fill(rect)
         
         if shaperLayer().cornerRadius != 0 {
             let roundPath = UIBezierPath(roundedRect: rect, cornerRadius: shaperLayer().cornerRadius)
